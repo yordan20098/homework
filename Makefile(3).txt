@@ -1,0 +1,7 @@
+all: main
+
+main: main.c quadraticroots.c
+	gcc -o main main.c quadraticroots.c -lm
+
+clean:
+	rm -f main
